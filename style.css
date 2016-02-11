@@ -1,0 +1,187 @@
+$blue: #a3d5d3;
+
+body {
+  position: relative;
+  height: 100%;
+  padding: 45px 0 0 0;
+/*  background-image: url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.navbar-default {
+    margin-bottom: -20px !important;
+    background-color: white;
+    border-color: white;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #009C91;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: #A40079; /*BACKGROUND color for active*/
+background-color: white;
+
+}
+
+  .navbar-default .navbar-nav > li > a {
+   color: #C8C8D1; /*Change active text color here*/
+   font-family: 'Playfair Display', serif;
+   font-weight: bolder;
+    }
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.heading {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 100px;
+  color: white;
+}
+#homecontent {
+  background-color: rgba(171,227,187,.75);
+
+  }
+#home h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+}
+#home img {
+  height: 50px;
+  width: 50px;
+}
+
+#home {
+  padding: 250px 0px;
+  background-color: #ABE3BB;
+  background: url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+#about {
+  margin: 0 auto;
+  background-color: #ABE3BB;
+  padding: 175px 0px;
+}
+#about h1 {
+  text-align: center;
+}
+#about p {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+#gabypic {
+  margin-top: 40px;
+}
+#gabypic img {
+  display: block;
+  margin: 20px auto;
+  max-width: 75%;
+  border-radius: 50%;
+}
+
+#about a {
+   color: #C8C8D1;
+}
+#about a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #A40079;
+}
+#about #skills img {
+  width: 15%;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+#work {
+  margin: 0 auto;
+  background-color: #A40079;
+  padding: 50px 0px 75px 0px;
+}
+#work h1 {
+  text-align: center;
+  padding-top: 40px;
+}
+#projects {
+  margin: 40px 20px 40px 20px;
+  padding-top: 0px auto;
+}
+#projects img {
+  border-width: 3px;
+  border-color: #C8C8D1;
+  border-style: solid;  
+  margin-top: 20px;
+}
+.projectdetails {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-top: -10px;
+}
+.projectdetails h3 {
+  font-size: 25px;
+}
+.projectdetails h4 {
+  font-size: 15px;
+}
+
+#contact {
+  margin: 0 auto;
+  padding: 100px 0px;
+  background-color: #0F1C50;
+  text-align: center;
+}
+
+#contact ul {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  list-style: none;
+  padding: 0;
+
+}
+#contact img {
+  width: 5%;
+}
+
+#container {
+  display: inline;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #C8C8D1;
+  margin: 0 auto;
+  text-align: center;
+  color: #A40079;
+  width: 100%;
+}
+#made {
+  background-color: white;
+  font-size: 20px;
+}
+#footericons {
+  background-color: teal;
+}
+#footericons a {
+  color: yellow;
+  text-decoration: none;
+  font-size: 25px;
+}
