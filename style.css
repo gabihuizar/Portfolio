@@ -1,8 +1,10 @@
 $blue: #a3d5d3;
-
+* {
+  box-sizing: border-box;
+}
 body {
   position: relative;
-  height: 100%;
+  height: 100%
   padding: 45px 0 0 0;
 /*  background-image: url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk.jpg);
   background-repeat: no-repeat;
@@ -27,7 +29,7 @@ background-color: white;
 
 }
 
-  .navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a {
    color: #C8C8D1; /*Change active text color here*/
    font-family: 'Playfair Display', serif;
    font-weight: bolder;
@@ -44,12 +46,18 @@ background-color: white;
 
 .heading {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 100px;
   color: white;
+  margin-bottom: -10px;
+  font-size: 100px;
+}
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 65px;
+    }
 }
 #homecontent {
   background-color: rgba(171,227,187,.75);
-
+  padding-bottom: 10px;
   }
 #home h2 {
   font-family: 'Playfair Display', serif;
@@ -61,12 +69,14 @@ background-color: white;
 }
 
 #home {
-  padding: 250px 0px;
+  width: 100%;
+  padding: 200px 0px 250px 0px;
   background-color: #ABE3BB;
   background: url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk.jpg) no-repeat center center fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,8 +89,10 @@ background-color: white;
   background-color: #ABE3BB;
   padding: 175px 0px;
 }
+
 #about h1 {
   text-align: center;
+  margin-bottom: 10px;
 }
 #about p {
   font-family: 'Playfair Display', serif;
@@ -88,15 +100,7 @@ background-color: white;
   font-size: 20px;
   text-align: center;
 }
-#gabypic {
-  margin-top: 40px;
-}
-#gabypic img {
-  display: block;
-  margin: 20px auto;
-  max-width: 75%;
-  border-radius: 50%;
-}
+
 
 #about a {
    color: #C8C8D1;
@@ -112,11 +116,20 @@ background-color: white;
   padding: 5px;
   border-radius: 50%;
 }
+#gabypic {
+  margin-top: 40px;
+}
+#gabypic img {
+  display: block;
+  margin: 20px auto;
+  max-width: 75%;
+  border-radius: 50%;
+}
 
 #work {
   margin: 0 auto;
   background-color: #A40079;
-  padding: 50px 0px 75px 0px;
+  padding: 100px 0px;
 }
 #work h1 {
   text-align: center;
@@ -125,7 +138,8 @@ background-color: white;
 #projects {
   margin: 40px 20px 40px 20px;
   padding-top: 0px auto;
-}
+} 
+
 #projects img {
   border-width: 3px;
   border-color: #C8C8D1;
@@ -147,7 +161,7 @@ background-color: white;
 
 #contact {
   margin: 0 auto;
-  padding: 100px 0px;
+  padding: 125px 0px;
   background-color: #0F1C50;
   text-align: center;
 }
@@ -157,11 +171,19 @@ background-color: white;
   font-family: 'Playfair Display', serif;
   font-size: 30px;
   list-style: none;
-  padding: 0;
+  padding: 10px 0;
 
 }
+@media only screen and (max-width: 600px) {
+    #contact ul {
+        font-size: 20px;
+    }
+    #contact {
+      padding: 200px 0px;
+    }
+}
 #contact img {
-  width: 5%;
+  width: 7%;
 }
 
 #container {
