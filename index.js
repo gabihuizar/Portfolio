@@ -11,4 +11,7 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
-});
+	$('.navbar-collapse a').click(function(){
+    	$(".navbar-collapse").collapse('hide');
+	});
+}); 

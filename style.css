@@ -6,9 +6,7 @@ body {
   position: relative;
   height: 100%
   padding: 45px 0 0 0;
-/*  background-image: url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; */
+
 }
 
 .navbar-default {
@@ -50,11 +48,6 @@ background-color: white;
   margin-bottom: -10px;
   font-size: 100px;
 }
-@media only screen and (max-width: 600px) {
-    .heading {
-        font-size: 65px;
-    }
-}
 #homecontent {
   background-color: rgba(171,227,187,.75);
   padding-bottom: 10px;
@@ -69,21 +62,45 @@ background-color: white;
 }
 
 #home {
-  width: 100%;
   padding: 200px 0px 250px 0px;
   background-color: #ABE3BB;
   background: url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk.jpg) no-repeat center center fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center center;
   background-attachment: fixed;
-  background-position: center;
+  
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+  background-size: cover; 
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 50px;
+    }
+    #home h2 {
+      font-size: 20px;
+    }
+    #home img {
+       height: 30px;
+       width: 30px;
+}
+    #home {
+      background: url('images/sedonapigs.jpg') no-repeat center center scroll; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    }
+    #homecontent {
+      background-color: rgba(0,175,149,.75); 
+
+    }
+}
+
 #about {
   margin: 0 auto;
   background-color: #ABE3BB;
@@ -125,7 +142,11 @@ background-color: white;
   max-width: 75%;
   border-radius: 50%;
 }
-
+@media only screen and (max-width: 600px) {
+  #about {
+    background-color: #00AF95;
+  }
+}
 #work {
   margin: 0 auto;
   background-color: #A40079;
@@ -171,20 +192,26 @@ background-color: white;
   font-family: 'Playfair Display', serif;
   font-size: 30px;
   list-style: none;
-  padding: 10px 0;
+  padding: 0;
 
+}
+#contact li img {
+  width: 7%;
+}
+#contact a img {
+  width: 8%;
 }
 @media only screen and (max-width: 600px) {
     #contact ul {
-        font-size: 20px;
+        font-size: 15px;
     }
     #contact {
       padding: 200px 0px;
     }
-}
-#contact img {
-  width: 7%;
-}
+    #contact a img {
+      width: 15%;
+    }
+  }
 
 #container {
   display: inline;
@@ -200,7 +227,7 @@ background-color: white;
   font-size: 20px;
 }
 #footericons {
-  background-color: teal;
+  background-color: #00AF95;
 }
 #footericons a {
   color: yellow;
